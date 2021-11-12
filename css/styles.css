@@ -1,0 +1,43 @@
+.header-container {
+    background-color: #1F2937;
+    color: aliceblue;
+}
+
+header {}
+
+body {
+    margin: 0;
+    padding: 0;
+    padding-top: 0;
+    background-color: #1F2937;
+}
+
+.top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 75px;
+}
+
+#signup {
+    color: aliceblue;
+}
+
+#placeholder-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 7px;
+    background-color: darkgrey;
+    color: aliceblue;
+    width: 350px;
+    height: 150px;
+    border: darkgrey;
+}
+
+footer {
+    background-color: aliceblue;
+}
+
+
+/* " # " is id selector  " . " is class selector */
