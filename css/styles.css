@@ -1,9 +1,35 @@
+/* styling for logo and links */
+
 .header-container {
     background-color: #1F2937;
     color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2em;
 }
 
-header {}
+
+/* styling for links, a is a regular, unvisited link */
+
+a {
+    color: aliceblue;
+}
+
+.links {
+    display: flex;
+    gap: 8px;
+    color: aliceblue;
+}
+
+#maintext {
+    font-size: 48px;
+}
+
+#subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+}
 
 body {
     margin: 0;
@@ -14,6 +40,7 @@ body {
 
 .top-bar {
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     gap: 75px;
@@ -23,6 +50,14 @@ body {
     color: aliceblue;
 }
 
+#signup-btn {
+    background-color: #3882F6;
+    border-radius: 4px;
+    border-color: #3882F6;
+    color: aliceblue;
+    width: 80px;
+}
+
 #placeholder-box {
     display: flex;
     align-items: center;
@@ -30,9 +65,13 @@ body {
     font-size: 7px;
     background-color: darkgrey;
     color: aliceblue;
-    width: 350px;
-    height: 150px;
+    height: 250px;
+    width: 500px;
     border: darkgrey;
+}
+
+#info-segment {
+    display: flex;
 }
 
 footer {
