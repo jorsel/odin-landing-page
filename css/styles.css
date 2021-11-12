@@ -74,7 +74,7 @@ body {
 .info-segment {
     padding-top: 2em;
     padding-bottom: 2em;
-    background-color: aliceblue;
+    background-color: white;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -108,7 +108,30 @@ body {
     display: flex;
 }
 
-.quote-container {}
+calltoarms-segment {
+    background-color: white;
+}
+
+#cta-box {
+    background-color: #3882F6;
+    color: white;
+}
 
 
 /* " # " is id selector  " . " is class selector */
+
+
+/*TO DO 
+The site was designed with the the first segment in mind, so the color
+of the header and first segment is just the background color shining through.
+It's probably easier to set proper colors for those parts instead of
+trying to fix every part where the dark blue is visible on the edges
+
+Find out how to layer the information text above the boxes
+
+Adjust size of call to arms, see box model
+
+adjust padding for top and header text
+
+make quote segment centered, and position the "quotee" text
+*/
