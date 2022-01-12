@@ -6,7 +6,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 5vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
 }
 
 
@@ -32,10 +33,10 @@ p {
 }
 
 body {
-    padding: 0;
-    padding-top: 0;
     background-color: #1F2937;
     display: grid;
+    margin: 0px;
+    padding: 0px;
 }
 
 
@@ -45,7 +46,7 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     background-color: #1F2937;
     margin: 5vw;
 }
@@ -54,7 +55,7 @@ body {
 /* Signup element of top bar */
 
 #signup {
-    color: aliceblue;
+    color: white;
     padding-bottom: 2em;
     display: flex;
     flex-direction: column;
@@ -67,6 +68,7 @@ body {
 #subtext {
     font-size: 18px;
     color: #e5e7eb;
+    width: 400px;
 }
 
 #signup-btn {
@@ -75,6 +77,7 @@ body {
     border-color: #3882F6;
     color: aliceblue;
     width: 80px;
+    font-weight: bold;
 }
 
 #placeholder-box {
@@ -159,27 +162,37 @@ body {
 }
 
 #cta-box {
+    display: flex;
     background-color: #3882F6;
     color: white;
     border-radius: 8px;
-    width: 600px;
+    width: 70vw;
+    height: 10vw;
+    align-items: center;
+}
+
+#signup-btn2 {
+    width: 100px;
+    background-color: #3882F6;
+    border-color: white;
+    border-radius: 4px;
+    border-style: solid;
+    color: white;
+    font-weight: bold;
+}
+
+#cta-text {
+    padding-left: 10%;
+    padding-right: 10%;
+    line-height: 2px;
 }
 
 
 /* " # " is id selector  " . " is class selector */
 
 
-/*TO DO 
-The site was designed with the the first segment in mind, so the color
-of the header and first segment is just the background color shining through.
-It's probably easier to set proper colors for those parts instead of
-trying to fix every part where the dark blue is visible on the edges
+/*
+TO DO 
 
-Find out how to layer the information text above the boxes
-
-Adjust size of call to arms, see box model
-
-adjust padding for top and header text
-
-make quote segment centered, and position the "quotee" text
+Position quotee text correctly, maybe put entire segment in grid
 */
